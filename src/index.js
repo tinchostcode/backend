@@ -15,7 +15,7 @@ const port=process.env.PORT || 9000;
 
 
 //middlewares
-app.use(express.json()); // habilitamos para recibir json en nuestra app 
+app.use(express.json()); // habilitamos para recibir json  
 
 app.use('/api/productos',require('./routes/producto'));
 
